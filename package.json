@@ -1,0 +1,30 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "Matricula",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mssql": "^4.2.3",
+    "multer": "^1.4.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGuerrero27/Examen-Desarrollo-de-Aplicaciones-Web-I.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesGuerrero27/Examen-Desarrollo-de-Aplicaciones-Web-I/issues"
+  },
+  "homepage": "https://github.com/JamesGuerrero27/Examen-Desarrollo-de-Aplicaciones-Web-I#readme"
+}
