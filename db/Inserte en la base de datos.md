@@ -15,6 +15,9 @@ insert into Maestro (nombreDelMaestro, MatriculaId) values ('Sergio Peralta', '2
 insert into Maestro (nombreDelMaestro, MatriculaId) values ('Carlos Varela', '1')
 insert into Maestro (nombreDelMaestro, MatriculaId) values ('Elsenora Palacios', '3')
 
+//Inserte Asistencia
+insert into Asistencia (diaDeAsistencia, checkAsistencia, MatriculaId) values ('01/11/2018', 'llego',1)
+
 //El alumno esta matriculado materias
 select Alumno.nombreDelAlumno, Matricula.nombreDeLaMateria from Alumno join Matricula on Alumno.MatriculaId = Matricula.MatriculaId;
 
