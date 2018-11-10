@@ -54,3 +54,11 @@ localhost:8090/app/v1/Matriculados/Clases/Maestros
 localhost:8090/app/v1/estudiante/nuevo
 //Los Maestros pueden marcar asistencia de un alumnos a una clase en particular
 localhost:8090/app/v1/Asistencia/student
+
+--env
+DB_USER = sa
+DB_SERVER = localhost
+DB_PASSW= Admin123
+DB_DATABASE = escuelaMatricula
+DB_PORT=1433
+APP_PORT=8090
